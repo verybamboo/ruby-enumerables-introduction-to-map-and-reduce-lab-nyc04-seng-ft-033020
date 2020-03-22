@@ -39,3 +39,22 @@ def map_to_square(source_array)
   end
   array
 end
+
+def reduce_to_total(source_array, starting_point)
+  array = starting_point
+  index = 0 
+  while index < source_array.length do
+    array += source_array[index]
+    index += 1
+  end
+  array
+end
+
+def reduce_to_all(source_array)
+  index = 0 
+  while index < source_array.length do
+    return false if !source_array[index]
+    index += 1 
+  end
+  true
+end
