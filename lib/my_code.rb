@@ -9,3 +9,14 @@ def map_to_negativize(source_array)
   end
   array
 end
+
+def map_to_no_change(source_array)
+  array = []
+  index = 0
+  while index < source_array.length do
+    array.push(source_array[index])
+    index += 1 
+  end
+  array
+end
+
