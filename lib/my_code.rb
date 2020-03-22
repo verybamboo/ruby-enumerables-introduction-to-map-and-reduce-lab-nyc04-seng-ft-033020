@@ -7,5 +7,5 @@ def map_to_negative(source_array)
     array.push(source_array[index] * -1)
     index += 1
   end
-  array
+  return array
 end
