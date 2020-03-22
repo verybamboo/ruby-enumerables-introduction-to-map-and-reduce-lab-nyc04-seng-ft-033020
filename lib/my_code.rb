@@ -56,5 +56,5 @@ def reduce_to_all(source_array)
     return false if !source_array[index]
     index += 1 
   end
-  true
+  return true
 end
