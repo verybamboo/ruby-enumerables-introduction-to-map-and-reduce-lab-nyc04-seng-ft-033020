@@ -1,5 +1,5 @@
 # My Code here....
-def map_to_negative(source_array)
+def map_to_negativize(source_array)
   array = []
   index = 0
   
@@ -7,5 +7,5 @@ def map_to_negative(source_array)
     array.push(source_array[index] * -1)
     index += 1
   end
-  return array
+  array
 end
